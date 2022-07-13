@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "c4ed60b90cc06801605d20f7abfafbcd",
+    "content-hash": "89af438b3bac6aaae5acab37680651cc",
     "packages": [
         {
             "name": "doctrine/annotations",
@@ -2217,6 +2217,55 @@
                 "source": "https://github.com/scheb/2fa-bundle/tree/v6.0.2"
             },
             "time": "2022-04-16T10:15:33+00:00"
+        },
+        {
+            "name": "scheb/2fa-email",
+            "version": "v6.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/scheb/2fa-email.git",
+                "reference": "c8c6dbbcab997b062875595cba307578584ebac9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/scheb/2fa-email/zipball/c8c6dbbcab997b062875595cba307578584ebac9",
+                "reference": "c8c6dbbcab997b062875595cba307578584ebac9",
+                "shasum": ""
+            },
+            "require": {
+                "php": "~8.0.0 || ~8.1.0",
+                "scheb/2fa-bundle": "self.version"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Scheb\\TwoFactorBundle\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Scheb",
+                    "email": "me@christianscheb.de"
+                }
+            ],
+            "description": "Extends scheb/2fa-bundle with two-factor authentication via email",
+            "homepage": "https://github.com/scheb/2fa",
+            "keywords": [
+                "2fa",
+                "Authentication",
+                "email",
+                "symfony",
+                "two-factor",
+                "two-step"
+            ],
+            "support": {
+                "source": "https://github.com/scheb/2fa-email/tree/v6.0.2"
+            },
+            "time": "2022-01-03T10:16:52+00:00"
         },
         {
             "name": "sensio/framework-extra-bundle",

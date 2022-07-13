@@ -1,5 +1,10 @@
 # See the configuration reference at https://symfony.com/bundles/SchebTwoFactorBundle/6.x/configuration.html
 scheb_two_factor:
     security_tokens:
-        - Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken
+        # - Symfony\Component\Security\Core\Authentication\Token\UsernamePasswordToken
         - Symfony\Component\Security\Http\Authenticator\Token\PostAuthenticationToken
+    email:
+        digits: 6 # pour envoyer un code à 6 chiffres
+        enabled: true # on l'active 
+        sender_email: no-reply@example.com # adresse d'expédition
+        sender_name: John Doe  # Optional
